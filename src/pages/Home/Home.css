@@ -1,0 +1,90 @@
+.home-container {
+  height: 350px;
+  color: white;
+  padding-left: 200px;
+  /* margin-left: 90px; */
+}
+
+.home-content h2 {
+  padding: 5px;
+  padding-top: 70px;
+}
+
+.home-content h3 {
+  padding: 5px;
+  font-family: cursive;
+
+}
+
+.home-buttons {
+  margin-top: 20px;
+}
+
+.home-buttons .btn-hire {
+  background-color: #3b8ff3;
+  color: white;
+  width: 160px;
+}
+
+.home-buttons .btn-hire:hover {
+  background-color: white;
+  color: #3b8ff3;
+  width: 200px;
+  /* transition: 1s; */
+}
+
+.home-buttons .btn-cv {
+  background-color: #f29f67;
+  color: white;
+  margin-left: 15px;
+}
+
+.home-buttons .btn-cv:hover {
+  opacity: 80%;
+  /* transition: 1s; */
+}
+
+/* Here Dark Mode or Light mode Css  */
+.theme-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  width: 35px;
+  background-color: #1e1e1e;
+  text-align: center;
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+  border-radius: 10px;
+  /* border-bottom-left-radius: 10px; */
+  /* z-index: 1; */
+}
+
+.welcome-web {
+  text-align: end;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  text-decoration: underline;
+   margin-top: 10px;
+   box-sizing: border-box;
+  font-size: 18px;
+  color: #3b8ff3;
+  
+}
+
+/* =============== */
+@media (max-width: 600px) {
+  .home-container {
+    padding: 0;
+    margin: 0;
+    margin-top: 50px;
+  }
+
+  .home-container h2 {
+    font-size: 24px;
+  }
+
+  .home-container h1 {
+    font-size: 24px;
+  }
+}
